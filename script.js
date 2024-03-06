@@ -7,7 +7,7 @@
                 alert("Please fill all modetery fill");
                 return false;
             }
-            else if (a=="8877742073" && b=="ks")
+            else if (a=="9708589431" && b=="kss@123")
                 {
                     alert("Login Successfully");
                   true ;
