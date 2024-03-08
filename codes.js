@@ -28,6 +28,6 @@
                true;
                     alert(" Successfully Registered");
             }
-            window.location.assign("./info.html");
+            window.location.assign("./index.html");
     
         });
