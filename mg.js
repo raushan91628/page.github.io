@@ -145,7 +145,7 @@ const vv=document.getElementById('h2');
         const khhh=document.getElementById('mjsd');
         kh.addEventListener('click', function ns(){
 
-            khh.innerHTML='<img src="image/Screenshot (103).png" style="width:900px; height:500px" ><br> Rock Scissors Paper<br> Project:-<a  href="./game.html"> Live </a><br><br><br><br><br><img src="image/Screenshot (104).png" style="width:900px; height:500px" ><br> Currency Conveterr<br> Project:-<a  href="./crr.html"> Live </a><br><br><br><br><br><br><br><img src="image/Screenshot (105).png" style="width:900px; height:500px" ><br> College Website<br> Project:-<a  href="./web.html"> Live </a><br><br><br><br><img src="image/Screenshot (106).png" style="width:900px; height:500px" ><br> Police Patnership With People Website <br> Project:-<a  href="./start.html"> Live </a><br><br><br><br><img src="image/Screenshot (107).png" style="width:900px; height:500px" ><br> Solar System<br> Project:-<a  href="./solar_system.html"> Live </a><br><br><br><br><img src="image/Screenshot (108).png" style="width:900px; height:500px" ><br> Registatio Form<br> Project:-<a  href="./form.html"> Live </a><br><br><br><Br><img src="image/Screenshot (110).png" style="width:900px; height:500px" ><br> Find Weather In Any Place<br> Project:-<a  href="./weather.html"> Live </a><br><br><br><br><br>';
+            khh.innerHTML='<img src="image/Screenshot (103).png" style="width:900px; height:500px" ><br> Rock Scissors Paper<br> Project:-<a  href="https://raushan91628.github.io/game.github.io/"> Live </a><br><br><br><br><br><img src="image/Screenshot (104).png" style="width:900px; height:500px" ><br> Currency Conveterr<br> Project:-<a  href="https://raushan91628.github.io/Currency.github.io/"> Live </a><br><br><br><br><br><br><br><img src="image/Screenshot (105).png" style="width:900px; height:500px" ><br> College Website<br> Project:-<a  href="./web.html"> Live </a><br><br><br><br><img src="image/Screenshot (106).png" style="width:900px; height:500px" ><br> Police Patnership With People Website <br> Project:-<a  href="https://raushan91628.github.io/comp.github.io/"> Live </a><br><br><br><br><img src="image/Screenshot (107).png" style="width:900px; height:500px" ><br> Solar System<br> Project:-<a  href="./solar_system.html"> Live </a><br><br><br><br><img src="image/Screenshot (108).png" style="width:900px; height:500px" ><br> Registatio Form<br> Project:-<a  href="https://raushan91628.github.io/Registation.github.io/"> Live </a><br><br><br><Br><img src="image/Screenshot (110).png" style="width:900px; height:500px" ><br> Find Weather In Any Place<br> Project:-<a  href="https://raushan91628.github.io/Weather.github.io/"> Live </a><br><br><br><br><br>';
             khhh.remove('mjsd');
         });
 
@@ -179,9 +179,6 @@ const vv=document.getElementById('h2');
     const randIdx = Math.floor(Math.random() * 10000);
     bvc.addEventListener('click',function takevalue(){
         // console.log("Thank you For Giving Your Feedback").style.textAlign="center";
-
-         
-        alert("Your Response has been submited,Please wait when owner will be check.")      
     var Name = document.getElementById
     ("n1").value;
     var Email = document.getElementById
@@ -206,6 +203,7 @@ const vv=document.getElementById('h2');
                 }
              else {
              true;
+                 alert("Your Response has been submited,Please wait when owner will be check.")      
     }
     document.write("Thank you For Giving Your Feedback","<br><br><br>");
     document.write("your Reciving Number is:-" + randIdx + "<br>");
